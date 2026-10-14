@@ -10,7 +10,6 @@ const nextConfig: NextConfig = {
     typedRoutes: true,
     devIndicators: false,
     compiler,
-
     env: { BUILD_TIMESTAMPS: Date.now().toString() },
     turbopack: { rules: { "*.css": { loaders: ["@tailwindcss/turbopack"], as: "*.css" } } }
 };

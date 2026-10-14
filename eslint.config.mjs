@@ -8,7 +8,6 @@ import { defineConfig, globalIgnores } from "eslint/config";
 const eslintConfig = defineConfig([
     ...nextVitals,
     ...nextTypeScript,
-
     {
         files: ["**/*.{ts,tsx}"],
         rules: {
@@ -23,7 +22,6 @@ const eslintConfig = defineConfig([
         settings: { "better-tailwindcss": { entryPoint: "app/globals.css" } },
         rules: { "better-tailwindcss/enforce-canonical-classes": "warn" }
     },
-
     prettier,
     globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"])
 ]);
