@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Testing
+coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+build
+
+# Debug
+npm-debug.log*
+
+# Environment files (can opt-in for committing if needed)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Lockfile
+package-lock.json
+
+# ESLint
+.eslintcache
