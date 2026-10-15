@@ -1,7 +1,8 @@
 import { AUTHOR } from "./author";
+import { SOCIAL_LINKS } from "./social-links";
 
 const SOURCE_CODE_GITHUB_REPOSITORY = "cxnik/nikhilkumarsingh.dev";
-const SOURCE_CODE_GITHUB_REPOSITORY_URL = "https://github.com/cxnik/nikhilkumarsingh.dev";
+const SOURCE_CODE_GITHUB_REPOSITORY_URL = `${SOCIAL_LINKS.github}/nikhilkumarsingh.dev`;
 
 const SITE = {
     title: AUTHOR.displayName,
